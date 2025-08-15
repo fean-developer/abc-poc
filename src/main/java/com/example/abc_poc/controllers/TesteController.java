@@ -28,6 +28,9 @@ public class TesteController implements ApiRest {
         );
     }
 
+    /**
+     * Endpoint to create a new computador
+     */
     @PostMapping("/computadores")
     public void createComputadores(@RequestBody Map<String, Object> computador) {
         createComputador(computador);
