@@ -10,10 +10,10 @@ import org.springframework.web.bind.annotation.RequestMapping;
 @RequestMapping("/api")
 public interface ApiRest {
 
-    @GetMapping("/teste")
-    Object teste();
+    @GetMapping("/computadores")
+    Object computadores();
 
     @PostMapping("/computadores")
-    void createComputadores(@RequestBody Map<String, Object> computador);
+    void createComputadores(@RequestBody Map<String, Object> computer);
 
 }
