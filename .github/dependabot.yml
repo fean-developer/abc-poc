@@ -1,0 +1,7 @@
+
+version: 2
+updates:
+  - package-ecosystem: "maven"
+    directory: "/" # ou o caminho correto do seu pom.xml
+    schedule:
+      interval: "daily"
