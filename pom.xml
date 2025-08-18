@@ -13,7 +13,7 @@
 	<version>0.0.1-SNAPSHOT</version>
 	<name>abc-poc</name>
 	<description>Demo project for Spring Boot</description>
-	<url/>
+	<url>https://github.com/fean-developer/abc-poc<url/>
 	<licenses>
 		<license/>
 	</licenses>
@@ -23,8 +23,12 @@
 	<scm>
 		<connection/>
 		<developerConnection/>
-		<tag/>
-		<url/>
+		<tag>HEAD</tag>
+		<url>https://github.com/fean-developer/abc-poc</url>
+		<issueManagement>
+			<system>GitHub</system>
+			<url>https://github.com/fean-developer/abc-poc/issues</url>
+		</issueManagement>
 	</scm>
 	<properties>
 		<java.version>17</java.version>
