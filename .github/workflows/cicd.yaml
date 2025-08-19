@@ -34,7 +34,7 @@ jobs:
         run: mvn test
 
       - name: Check code coverage
-        uses: fean-developer/check-coverage-report@v1
+        uses: fean-developer/check-coverage-report@v2
         with:
           report-format: jacoco
           report-file: target/site/jacoco/jacoco.xml
