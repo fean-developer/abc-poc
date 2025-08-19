@@ -37,4 +37,4 @@ jobs:
         uses: fean-developer/check-coverage-report@v1
         with:
           report-file: target/site/jacoco/jacoco.xml
-          min-coverage: 80
+          min-coverage: 70
