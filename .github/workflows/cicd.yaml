@@ -36,5 +36,6 @@ jobs:
       - name: Check code coverage
         uses: fean-developer/check-coverage-report@v1
         with:
+          report-format: jacoco
           report-file: target/site/jacoco/jacoco.xml
           min-coverage: 70
