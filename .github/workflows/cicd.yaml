@@ -32,3 +32,10 @@ jobs:
 
       - name: Run tests
         run: mvn test
+
+      - name: Check code coverage
+        uses: fean-developer/check-coverage-report@v1
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          coverage_report_path: target/site/jacoco/jacoco.xml
+          min_coverage: 80
