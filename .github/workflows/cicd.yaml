@@ -36,6 +36,5 @@ jobs:
       - name: Check code coverage
         uses: fean-developer/check-coverage-report@v1
         with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          coverage_report_path: target/site/jacoco/jacoco.xml
-          min_coverage: 80
+          report-file: target/site/jacoco/jacoco.xml
+          min-coverage: 80
